@@ -1,0 +1,105 @@
+INFO 2024-01-04 23:40:38,302 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-04 23:41:35,558 basehttp 212 "GET / HTTP/1.1" 200 10664
+INFO 2024-01-04 23:46:17,500 autoreload 668 Watching for file changes with StatReloader
+WARNING 2024-01-04 23:46:31,693 log 241 Not Found: /
+WARNING 2024-01-04 23:46:31,693 basehttp 212 "GET / HTTP/1.1" 404 2164
+INFO 2024-01-04 23:46:38,254 basehttp 212 "GET /log HTTP/1.1" 301 0
+INFO 2024-01-04 23:46:38,259 basehttp 212 "GET /log/ HTTP/1.1" 200 3
+INFO 2024-01-04 23:50:21,857 autoreload 668 Watching for file changes with StatReloader
+WARNING 2024-01-04 23:50:23,324 log 241 Not Found: /
+WARNING 2024-01-04 23:50:23,325 basehttp 212 "GET / HTTP/1.1" 404 2164
+INFO 2024-01-04 23:50:29,277 urls 22 user login
+WARNING 2024-01-04 23:50:29,277 urls 23 redis don't have enough cache
+ERROR 2024-01-04 23:50:29,277 urls 24 record doesn't exist
+INFO 2024-01-04 23:50:29,277 basehttp 212 "GET /log/ HTTP/1.1" 200 3
+ERROR 2024-01-05 00:01:26,789 exception 124 Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-01-05 00:01:26,844 log 241 Bad Request: /
+WARNING 2024-01-05 00:01:26,844 basehttp 212 "GET / HTTP/1.1" 400 70366
+ERROR 2024-01-05 00:01:27,302 exception 124 Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-01-05 00:01:27,320 log 241 Bad Request: /favicon.ico
+WARNING 2024-01-05 00:01:27,322 basehttp 212 "GET /favicon.ico HTTP/1.1" 400 70431
+INFO 2024-01-05 00:03:20,564 autoreload 668 Watching for file changes with StatReloader
+ERROR 2024-01-05 00:03:26,051 exception 124 Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-01-05 00:03:26,086 log 241 Bad Request: /
+WARNING 2024-01-05 00:03:26,087 basehttp 212 "GET / HTTP/1.1" 400 70557
+ERROR 2024-01-05 00:03:26,228 exception 124 Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-01-05 00:03:26,249 log 241 Bad Request: /favicon.ico
+WARNING 2024-01-05 00:03:26,249 basehttp 212 "GET /favicon.ico HTTP/1.1" 400 70485
+ERROR 2024-01-05 00:03:37,064 exception 124 Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-01-05 00:03:37,083 log 241 Bad Request: /log
+WARNING 2024-01-05 00:03:37,083 basehttp 212 "GET /log HTTP/1.1" 400 70453
+ERROR 2024-01-05 00:03:37,235 exception 124 Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\87012\AppData\Local\Programs\Python\Python39\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.sicheng_mall.site:8000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-01-05 00:03:37,253 log 241 Bad Request: /favicon.ico
+WARNING 2024-01-05 00:03:37,254 basehttp 212 "GET /favicon.ico HTTP/1.1" 400 70488
+INFO 2024-01-05 00:05:04,017 autoreload 266 F:\test\store_1\store_1\settings.py changed, reloading.
+INFO 2024-01-05 00:05:05,011 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-05 00:05:07,160 basehttp 212 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2024-01-05 00:05:07,161 basehttp 192 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-01-05 00:05:07,175 basehttp 192 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-01-05 00:05:07,192 basehttp 212 "GET /log HTTP/1.1" 301 0
+INFO 2024-01-05 00:05:07,196 urls 22 user login
+WARNING 2024-01-05 00:05:07,196 urls 23 redis don't have enough cache
+ERROR 2024-01-05 00:05:07,197 urls 24 record doesn't exist
+INFO 2024-01-05 00:05:07,197 basehttp 212 "GET /log/ HTTP/1.1" 200 3
+WARNING 2024-01-05 00:05:07,528 log 241 Not Found: /favicon.ico
+WARNING 2024-01-05 00:05:07,529 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2226
