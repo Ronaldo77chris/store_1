@@ -157,3 +157,24 @@ INFO 2024-01-07 16:25:06,592 urls 22 user login
 WARNING 2024-01-07 16:25:06,593 urls 23 redis don't have enough cache
 ERROR 2024-01-07 16:25:06,593 urls 24 record doesn't exist
 INFO 2024-01-07 16:25:06,594 basehttp 212 "GET /log/ HTTP/1.1" 200 3
+INFO 2024-01-07 17:09:02,084 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 17:11:25,523 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 17:11:44,428 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 17:14:30,980 basehttp 212 "GET /usernames/itcast/count HTTP/1.1" 301 0
+INFO 2024-01-07 17:14:30,992 basehttp 212 "GET /usernames/itcast/count/ HTTP/1.1" 200 39
+INFO 2024-01-07 17:20:40,559 basehttp 212 "GET /usernames/itcast/count/ HTTP/1.1" 200 39
+INFO 2024-01-07 17:20:46,720 basehttp 212 "GET /usernames/itcast/count/ HTTP/1.1" 200 39
+INFO 2024-01-07 17:27:08,134 autoreload 266 F:\test\store_1\apps\users\views.py changed, reloading.
+INFO 2024-01-07 17:27:09,294 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 17:29:01,474 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 17:29:13,020 basehttp 212 "GET /usernames/it/count/ HTTP/1.1" 200 39
+INFO 2024-01-07 17:30:04,542 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 17:30:07,091 basehttp 212 "GET /usernames/it/count/ HTTP/1.1" 200 67
+INFO 2024-01-07 17:30:42,306 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 17:30:44,354 basehttp 212 "GET /usernames/it/count/ HTTP/1.1" 200 69
+INFO 2024-01-07 17:31:03,603 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 17:31:04,375 basehttp 212 "GET /usernames/it/count/ HTTP/1.1" 200 57
+INFO 2024-01-07 17:38:53,153 autoreload 266 F:\test\store_1\store_1\urls.py changed, reloading.
+INFO 2024-01-07 17:38:54,303 autoreload 668 Watching for file changes with StatReloader
+WARNING 2024-01-07 17:38:56,838 log 241 Not Found: /usernames/it/count/
+WARNING 2024-01-07 17:38:56,838 basehttp 212 "GET /usernames/it/count/ HTTP/1.1" 404 2324

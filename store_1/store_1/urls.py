@@ -14,16 +14,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include,register_converter
 from django.http import HttpResponse
-def log(request):
-    import logging
-    logger=logging.getLogger('django')
-    logger.info('user login')
-    logger.warning("redis don't have enough cache")
-    logger.error("record doesn't exist")
-    return HttpResponse('log')
+from utils.converts import UsernameConvert
+
+# def log(request):
+#     import logging
+#     logger=logging.getLogger('django')
+#     logger.info('user login')
+#     logger.warning("redis don't have enough cache")
+#     logger.error("record doesn't exist")
+#     return HttpResponse('log')
+register_converter(UsernameConvert,'username')
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('log/',log),
+    path('',include('apps.users.urls'))
 ]
