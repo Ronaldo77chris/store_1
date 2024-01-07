@@ -103,3 +103,57 @@ ERROR 2024-01-05 00:05:07,197 urls 24 record doesn't exist
 INFO 2024-01-05 00:05:07,197 basehttp 212 "GET /log/ HTTP/1.1" 200 3
 WARNING 2024-01-05 00:05:07,528 log 241 Not Found: /favicon.ico
 WARNING 2024-01-05 00:05:07,529 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2226
+INFO 2024-01-07 15:27:00,230 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:27:53,661 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:38:42,108 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:39:29,990 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:41:33,037 autoreload 266 F:\test\store_1\apps\users\apps.py changed, reloading.
+INFO 2024-01-07 15:41:33,702 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:41:34,524 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:42:38,276 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:43:48,076 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:46:27,549 autoreload 266 F:\test\store_1\store_1\settings.py changed, reloading.
+INFO 2024-01-07 15:46:28,349 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:46:29,160 autoreload 668 Watching for file changes with StatReloader
+WARNING 2024-01-07 15:46:32,949 log 241 Not Found: /
+WARNING 2024-01-07 15:46:32,950 basehttp 212 "GET / HTTP/1.1" 404 2164
+WARNING 2024-01-07 15:46:33,320 log 241 Not Found: /favicon.ico
+WARNING 2024-01-07 15:46:33,322 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2215
+INFO 2024-01-07 15:46:39,135 basehttp 212 "GET /log HTTP/1.1" 301 0
+INFO 2024-01-07 15:46:39,137 urls 22 user login
+WARNING 2024-01-07 15:46:39,137 urls 23 redis don't have enough cache
+ERROR 2024-01-07 15:46:39,138 urls 24 record doesn't exist
+INFO 2024-01-07 15:46:39,138 basehttp 212 "GET /log/ HTTP/1.1" 200 3
+INFO 2024-01-07 15:46:51,189 autoreload 266 F:\test\store_1\store_1\settings.py changed, reloading.
+INFO 2024-01-07 15:46:51,829 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:46:52,280 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:46:59,530 autoreload 266 F:\test\store_1\store_1\settings.py changed, reloading.
+INFO 2024-01-07 15:47:00,251 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:47:00,565 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:49:33,056 autoreload 266 F:\test\store_1\store_1\settings.py changed, reloading.
+INFO 2024-01-07 15:49:33,227 autoreload 266 F:\test\store_1\store_1\settings.py changed, reloading.
+INFO 2024-01-07 15:49:33,802 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:49:34,273 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:51:12,771 autoreload 266 F:\test\store_1\apps\users\models.py changed, reloading.
+INFO 2024-01-07 15:51:13,426 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:51:14,333 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:51:46,299 autoreload 266 F:\test\store_1\store_1\settings.py changed, reloading.
+INFO 2024-01-07 15:51:46,936 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:51:47,617 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:52:47,033 autoreload 266 F:\test\store_1\apps\users\apps.py changed, reloading.
+INFO 2024-01-07 15:52:47,748 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:52:48,459 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 15:55:05,776 autoreload 266 F:\test\store_1\store_1\settings.py changed, reloading.
+INFO 2024-01-07 15:55:06,516 autoreload 677 Watching for file changes with StatReloader
+INFO 2024-01-07 15:55:07,209 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 16:18:56,137 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-01-07 16:24:51,434 autoreload 668 Watching for file changes with StatReloader
+WARNING 2024-01-07 16:24:56,723 log 241 Not Found: /
+WARNING 2024-01-07 16:24:56,724 basehttp 212 "GET / HTTP/1.1" 404 2164
+WARNING 2024-01-07 16:24:59,267 log 241 Not Found: /index
+WARNING 2024-01-07 16:24:59,268 basehttp 212 "GET /index HTTP/1.1" 404 2197
+INFO 2024-01-07 16:25:06,590 basehttp 212 "GET /log HTTP/1.1" 301 0
+INFO 2024-01-07 16:25:06,592 urls 22 user login
+WARNING 2024-01-07 16:25:06,593 urls 23 redis don't have enough cache
+ERROR 2024-01-07 16:25:06,593 urls 24 record doesn't exist
+INFO 2024-01-07 16:25:06,594 basehttp 212 "GET /log/ HTTP/1.1" 200 3
